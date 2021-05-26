@@ -53,13 +53,16 @@ const Content = () => {
                       value={blue}
                       onChange={({target}) => setBlue(target.value)} />
 
-                    <button onClick={() => handleSelectColor((oldValue) => [[red, green, blue], ...oldValue])}>
-                            Selecione a cor.
-                    </button>
+                    <div className="botoes">
+                        <button onClick={() => handleSelectColor((oldValue) => [[red, green, blue], ...oldValue])}>
+                                Selecione a cor.
+                        </button>
 
-                    <button onClick={() => handleRandonColor()}>
-                        Cores aleatórias
-                    </button>
+                        <button onClick={() => handleRandonColor()}>
+                            Cores aleatórias
+                        </button>
+                    </div>
+ 
                 </div>
 
                 <div className="lista-cores">
