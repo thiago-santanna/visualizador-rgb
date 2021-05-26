@@ -6,7 +6,7 @@ const Footer = () => {
         <>
             <footer>
                 <div className="fContainer">
-                &copy; <a className="link" href="">TSS Web Apps - Thiago Santanna ds Silva</a>
+                &copy; <a className="link" href="https://curriculo-dev.tsswebapps.com/">TSS Web Apps - Thiago Santanna ds Silva</a>
                 </div>
             </footer>            
         </>
