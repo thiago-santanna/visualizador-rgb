@@ -61,3 +61,7 @@
     width: 20px; 
     margin: 1rem 1rem 1rem 0;   
 }
+
+.botoes {
+    display: flex;
+}
