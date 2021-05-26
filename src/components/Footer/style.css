@@ -1,0 +1,14 @@
+.fContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(30, 190, 38);
+    min-height:60px;
+}
+
+.fContainer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}

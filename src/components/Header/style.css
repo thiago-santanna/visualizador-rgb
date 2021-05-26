@@ -1,0 +1,9 @@
+.hContent {
+    background-color: rgb(30, 190, 38); 
+    min-height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    color: rgb(255, 255, 255);
+}
