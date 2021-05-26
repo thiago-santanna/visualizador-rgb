@@ -13,6 +13,16 @@ const Content = () => {
     const handleSelectColor = (rgb) => {
         setContainerColors(rgb)
     }
+
+    const handleRandonColor = () => {
+        const randomRed = Math.floor(Math.random() * 255)
+        const randomGreen = Math.floor(Math.random() * 255)
+        const randomBlue = Math.floor(Math.random() * 255)
+
+        setRed(randomRed)
+        setGreen(randomGreen)
+        setBlue(randomBlue)
+    }
     return (
         <>
             <main>
@@ -44,7 +54,11 @@ const Content = () => {
                       onChange={({target}) => setBlue(target.value)} />
 
                     <button onClick={() => handleSelectColor((oldValue) => [[red, green, blue], ...oldValue])}>
-                            Guardar cor
+                            Selecione a cor.
+                    </button>
+
+                    <button onClick={() => handleRandonColor()}>
+                        Cores aleatórias
                     </button>
                 </div>
 
